@@ -1,0 +1,74 @@
+<html>
+ <head>
+  <style type="text/css">
+    form
+	{
+
+	 width:350px;
+	 height:250px;
+	 background-color:black;
+	 margin-top:200px;
+	 margin-bottom:200px;
+	 margin-left:420px;
+	 padding:30px;
+	}
+	table
+	{
+	 text-align:center;
+	}
+	td
+	{
+	color:white;
+	}
+	h1
+	{
+	text-align:center;
+	color:white;
+	}
+	body
+	{
+	background-image:url('maxresdefaul1t.jpg');
+	}
+	
+  </style>
+ <title> Form page</title>
+ </head>
+  <body>
+   <form action="somefile.php" method="post">
+    <h1>login page</h1>
+    <table>
+	 <tr>
+	  <td>Name</td>
+      <td> <input type="text" name="user name"></td>
+	 </tr>
+	
+	 <tr>
+	  <td>password</td>
+	  <td> <input type="password" name="password"></td>
+	 </tr>
+	  <tr>
+	  <td>Gender</td>
+	  <td><input type="radio" name="Gender">M
+	      <input type ="radio" name="Gender">F</td>
+     </tr>
+	 <tr>
+	  <td>Courses</td>
+	  <td><input type="checkbox" name="courses">Php
+          <input type="checkbox" name="couses">C++</td>
+	 </tr>
+	 <tr>
+	 
+	  <td>City</td>
+	  <td><select> <option>islamabad</option>
+	               <option>peshawar</option>
+				   <option>kohat</option>
+	      </select></td>
+	  </tr>	  
+	 <tr>
+	  <td id="b"> <input type="submit" value="register">
+	       <input type="reset" value="clear"></></td>
+	 </tr>
+	</table>
+   </form>
+  </body>
+</html>
